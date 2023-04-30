@@ -1,0 +1,43 @@
+.section{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 90px;
+    padding-bottom: 80px;
+}
+
+.section__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.section__title{
+    margin: 0;
+    padding: 0;
+    margin-top: 90px;
+    font-family: 'Ubuntu';
+   font-size: 64px;
+   line-height: 74px;
+    font-style: bold;
+    text-align: center;
+}
+
+.section__subtitle{
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.section__line{
+   
+    margin-top: 90px;
+    height: 137px;
+    width: 0;
+    border: 1px solid rgba(216, 216, 216, 1);
+}
